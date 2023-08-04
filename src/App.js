@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css'; 
+import sunsetImage from './Images/sunset.jpeg';
+
 
 function App() {
   return (
@@ -30,19 +32,19 @@ function App() {
             <div className="project">
               <h3>Project One</h3>
               <p>Project Description</p>
-                <img src="Images/sunset.jpeg" alt="Project One" />
+              <img src={sunsetImage} alt="Project1" />
               <a href="#">View Project</a>
             </div>
             <div className="project">
               <h3>Project Two</h3>
               <p>Project Description</p>
-                <img src="Images/sunset.jpeg" alt="Project Two" />
+              <img src={sunsetImage} alt="Project Two" />
               <a href="#">View Project</a>
             </div>
             <div className="project">
               <h3>Project Three</h3>
               <p>Project Description</p>
-                <img src="Images/sunset.jpeg" alt="Project Three" />
+              <img src={sunsetImage} alt="Project Three" />
               <a href="#">View Project</a>
             </div>
           </div>
