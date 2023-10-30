@@ -50,7 +50,7 @@
   }
   
   nav ul li a:hover {
-  color: #61d3fc;
+  color: #fff;
   }
   
   .hero {
@@ -150,8 +150,8 @@
   .project a {
   display: inline-block;
   padding: 1rem 2rem;
-  background-color: #61d3fc;
-  color: #fff;
+  background-color: #fff;
+  color: black;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -161,7 +161,7 @@
   }
   
   .project a:hover {
-  background-color: #00c43e;
+  background-color: #999999;
   }
   
   .projects-container {
@@ -216,9 +216,9 @@
   }
   
   #contact button:hover {
-  background-color: #61d3fc;
+  background-color: #fff;
   border-radius: 4px;
-  text-emphasis-color: white;
+  text-emphasis-color: black;
   border-width: 2px;
   color: white;
   }

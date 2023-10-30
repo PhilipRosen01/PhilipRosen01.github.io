@@ -1,43 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="../src/index.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">no</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Philip Rosen</h1>
+      <p>Full-Stack Developer</p>
+    </div>
+  </header>
+  
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm a self-motivated and detail-oriented individual with a passion for development. With a strong foundation in C#, PHP, and Java, I'm constantly seeking new challenges and opportunities to improve my skills and deliver high-quality work.</p>
+    </section>
+    
+    <section id="work">
+      <h2>My Work</h2>
+      <div class="projects-container">
+        <div class="project">
+          <h3>Project One</h3>
+          <p>Project Description</p>
+            <img src="src/Images/sunset.jpeg" alt="Project One">
+          <a href="#">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Project Two</h3>
+          <p>Project Description</p>
+            <img src="src/Images/sunset.jpeg" alt="Project Two">
+          <a href="#">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Project Three</h3>
+          <p>Project Description</p>
+            <img src="src/Images/sunset.jpeg" alt="Project Three">
+          <a href="#">View Project</a>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message"></textarea>
+        <button>Send Message</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; Philip Rosen | All Rights Reserved</p>
+  </footer>
+</body>
 </html>
